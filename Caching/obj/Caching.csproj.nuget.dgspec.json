@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/youssifsayed/RiderProjects/Caching/Caching/Caching.csproj": {}
+  },
+  "projects": {
+    "/home/youssifsayed/RiderProjects/Caching/Caching/Caching.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/youssifsayed/RiderProjects/Caching/Caching/Caching.csproj",
+        "projectName": "Caching",
+        "projectPath": "/home/youssifsayed/RiderProjects/Caching/Caching/Caching.csproj",
+        "packagesPath": "/home/youssifsayed/.nuget/packages/",
+        "outputPath": "/home/youssifsayed/RiderProjects/Caching/Caching/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/youssifsayed/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net10.0"
+        ],
+        "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net10.0": {
+            "targetAlias": "net10.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
